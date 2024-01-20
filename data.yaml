@@ -1,0 +1,13 @@
+train: /home/dslab/Documents/Face detection/train/images
+val: /home/dslab/Documents/Face detection/valid/images
+test: /home/dslab/Documents/Face detection/test/images
+
+nc: 2
+names: ['Asif', 'Farid']
+
+roboflow:
+  workspace: daffodil-7feoa
+  project: face-detection-xanbp
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/daffodil-7feoa/face-detection-xanbp/dataset/2
